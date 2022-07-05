@@ -4,7 +4,7 @@ console.log("Hello World!");
 
 function counterPrinter (userInput){
     for(let i = 0; i < userInput; i++){
-        console.log("My new favorite number is ${i}.")
+        console.log(`My new favorite number is ${i}.`);
     }
 }
 
